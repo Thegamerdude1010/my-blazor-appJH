@@ -1,4 +1,3 @@
-![Blazor_Azure](https://user-images.githubusercontent.com/89552632/133491009-12c9b6aa-32f7-4f25-9197-a33fd52fe154.png)
 # Blazor Starter Application
 
 This template contains an example [Blazor WebAssembly](https://docs.microsoft.com/aspnet/core/blazor/?view=aspnetcore-3.1#blazor-webassembly) client application, a C# [Azure Functions](https://docs.microsoft.com/azure/azure-functions/functions-overview) and a C# class library with shared code.
@@ -23,3 +22,9 @@ _Note: If you're using the Azure Functions CLI tools, refer to [the documentatio
 ## Deploy to Azure Static Web Apps
 
 This application can be deployed to [Azure Static Web Apps](https://docs.microsoft.com/azure/static-web-apps), to learn how, check out [our quickstart guide](https://aka.ms/blazor-swa/quickstart).
+
+# Tutorial 4
+![Blazor_Azure](https://user-images.githubusercontent.com/89552632/133491009-12c9b6aa-32f7-4f25-9197-a33fd52fe154.png)
+
+# Tutorial 5
+![Tutorial5](https://user-images.githubusercontent.com/89552632/134083875-01dc3352-6209-48d6-85ec-a6d68b08e2c0.png)
