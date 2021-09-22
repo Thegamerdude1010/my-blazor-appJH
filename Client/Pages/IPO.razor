@@ -1,12 +1,12 @@
 ﻿@page "/ipo"
 
-<h1>Calculator Page</h1>
+<h1>Basic Calculator</h1>
 
 <p> Input a number </p>
 
 <input @bind="Number1 " />
 
-<p><br />Input an Operator </p>
+<p><br />Input an Operator (*, /, +, -) </p>
 
 <input @bind="Operator " />
 
@@ -14,7 +14,7 @@
 
 <input @bind="Number2 " />
 
-<button class="btn btn-primary" @onclick="Multiplication">Multiply</button>
+<button class="btn btn-primary" @onclick="Calculation">Calculate</button>
 
 <p><br />Output: @Output </p>
 
@@ -30,7 +30,7 @@
 
     private string Output { get; set; }
 
-    private void Multiplication()
+    private void Calculation()
 
     {
 
