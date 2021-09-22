@@ -1,60 +1,32 @@
 ﻿@page "/ipo"
 
-<h1>Basic Calculator</h1>
+<h1>IPO</h1>
 
-<p> Input a number </p>
+<p>Input prompt </p>
 
-<input @bind="Number1 " />
+<input @bind="InputString " />
 
-<p><br />Input an Operator (*, /, +, -) </p>
+<button class="btn btn-primary" @onclick="DoProcessing">Do it</button>
 
-<input @bind="Operator " />
-
-<p><br />Input a second number </p>
-
-<input @bind="Number2 " />
-
-<button class="btn btn-primary" @onclick="Calculation">Calculate</button>
-
-<p><br />Output: @Output </p>
+<p>Output: @OutputString </p>
 
 @code
 
 {
 
-    private string Number1 { get; set; }
+    private string InputString { get; set; }
 
-    private string Operator { get; set; }
+    private string OutputString { get; set; }
 
-    private string Number2 { get; set; }
-
-    private string Output { get; set; }
-
-    private void Calculation()
+    private void DoProcessing()
 
     {
 
-        double num1 = double.Parse(Number1);
-        double num2 = double.Parse(Number2);
-        char op = char.Parse(Operator);
-        double ans = 0;
+        double num = double.Parse(InputString);
 
-        switch (op){
-            case '*':
-                ans = num1 * num2;
-                break;
-            case '/':
-                ans = num1 / num2;
-                break;
-            case '+':
-                ans = num1 + num2;
-                break;
-            case '-':
-                ans = num1 - num2;
-                break;
-        }
+        num = num * 2;
 
-        Output = ans.ToString();
+        OutputString = num.ToString();
 
     }
 

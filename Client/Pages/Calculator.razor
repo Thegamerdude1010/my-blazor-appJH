@@ -1,0 +1,61 @@
+﻿@page "/Calculator"
+
+<h1>Basic Calculator</h1>
+
+<p> Input a number </p>
+
+<input @bind="Number1 " />
+
+<p><br />Input an Operator (*, /, +, -) </p>
+
+<input @bind="Operator " />
+
+<p><br />Input a second number </p>
+
+<input @bind="Number2 " />
+
+<button class="btn btn-primary" @onclick="Calculation">Calculate</button>
+
+<p><br />Output: @Output </p>
+
+@code
+
+{
+
+    private string Number1 { get; set; }
+
+    private string Operator { get; set; }
+
+    private string Number2 { get; set; }
+
+    private string Output { get; set; }
+
+    private void Calculation()
+
+    {
+
+        double num1 = double.Parse(Number1);
+        double num2 = double.Parse(Number2);
+        char op = char.Parse(Operator);
+        double ans = 0;
+
+        switch (op){
+            case '*':
+                ans = num1 * num2;
+                break;
+            case '/':
+                ans = num1 / num2;
+                break;
+            case '+':
+                ans = num1 + num2;
+                break;
+            case '-':
+                ans = num1 - num2;
+                break;
+        }
+
+        Output = ans.ToString();
+
+    }
+
+}
