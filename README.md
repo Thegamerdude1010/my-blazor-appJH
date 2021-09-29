@@ -14,5 +14,3 @@ This blazor app started as a template provided in a tutorial found here: https:/
 # Tutorial 6
 
 Todo list tutorial: https://docs.microsoft.com/en-us/aspnet/core/tutorials/build-a-blazor-app?view=aspnetcore-5.0&pivots=server
-
-In tutorial 6, a todo page was added.
