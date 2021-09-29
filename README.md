@@ -1,30 +1,21 @@
 # Blazor Starter Application
 
-This template contains an example [Blazor WebAssembly](https://docs.microsoft.com/aspnet/core/blazor/?view=aspnetcore-3.1#blazor-webassembly) client application, a C# [Azure Functions](https://docs.microsoft.com/azure/azure-functions/functions-overview) and a C# class library with shared code.
+This is a blazor tutorial app created in COP 3003.
 
-## Getting Started
+# Azure URL
 
-Create a repository from the [GitHub template](https://docs.github.com/en/enterprise/2.22/user/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template) and then clone it locally to your machine.
-
-Once you clone the project, open the solution in [Visual Studio Code](https://code.visualstudio.com/) or [Visual Studio](https://visualstudio.microsoft.com/vs/preview/vs2022/) and follow these steps:
-
-- In the **API** folder, copy `local.settings.example.json` to `local.settings.json`
-- Press **F5** to launch both the client application and the Functions API app. In Visual Studio, you can right click the solution and select both API project and client project as startup projects. 
-
-_Note: If you're using the Azure Functions CLI tools, refer to [the documentation](https://docs.microsoft.com/azure/azure-functions/functions-run-local?tabs=windows%2Ccsharp%2Cbash) on how to enable CORS._
-
-## Template Structure
-
-- **Client**: The Blazor WebAssembly sample application
-- **API**: A C# Azure Functions API, which the Blazor application will call
-- **Shared**: A C# class library with a shared data model between the Blazor and Functions application
-
-## Deploy to Azure Static Web Apps
-
-This application can be deployed to [Azure Static Web Apps](https://docs.microsoft.com/azure/static-web-apps), to learn how, check out [our quickstart guide](https://aka.ms/blazor-swa/quickstart).
+https://white-wave-0db7e870f.azurestaticapps.net/
 
 # Tutorial 4
-![Blazor_Azure](https://user-images.githubusercontent.com/89552632/133491009-12c9b6aa-32f7-4f25-9197-a33fd52fe154.png)
+
+In tutorial 4, the project was created. It was uploaded to github and deployed to an Azure static web app.
 
 # Tutorial 5
-![Tutorial5](https://user-images.githubusercontent.com/89552632/134083875-01dc3352-6209-48d6-85ec-a6d68b08e2c0.png)
+
+In tutorial 5, an IPO page was added. A calculator page was also added to expirement with input and output.
+
+# Tutorial 6
+
+Todo list tutorial: https://docs.microsoft.com/en-us/aspnet/core/tutorials/build-a-blazor-app?view=aspnetcore-5.0&pivots=server
+
+In tutorial 6, a todo page was added. This page has a list of todos. Todos can be added by using a text box and an add button. The clear button clears the whole list. Each todo has a checkbox, and todos that are not checked (or not marked as done) will be counted and displayed at the top.
