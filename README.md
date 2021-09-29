@@ -6,16 +6,13 @@ This is a blazor tutorial app created in COP 3003.
 
 https://white-wave-0db7e870f.azurestaticapps.net/
 
-# Tutorial 4
+# The App
 
-In tutorial 4, the project was created. It was uploaded to github and deployed to an Azure static web app. It uses a basic blazor app template provided in the tutorial found here: https://devblogs.microsoft.com/aspnet/azure-static-web-apps-with-blazor/
+This blazor app started as a template provided in a tutorial found here: https://devblogs.microsoft.com/aspnet/azure-static-web-apps-with-blazor/. It was the deployed to an Azure static web app. Multiple pages were added to the template. The IPO page was added to show how input and output works. The calculator page does basic calculations (multiplication, division, addition, subtraction). The Todo page has a list of todos. Todos can be added by using a text box and an add button. The clear button clears the whole list. Each todo has a checkbox, and todos that are not checked (or not marked as done) will be counted and displayed at the top.
 
-# Tutorial 5
-
-In tutorial 5, an IPO page was added. A calculator page was also added to expirement with input and output. The calculator page does basic calculations (multiplication, division, addition, subtraction).
 
 # Tutorial 6
 
 Todo list tutorial: https://docs.microsoft.com/en-us/aspnet/core/tutorials/build-a-blazor-app?view=aspnetcore-5.0&pivots=server
 
-In tutorial 6, a todo page was added. This page has a list of todos. Todos can be added by using a text box and an add button. The clear button clears the whole list. Each todo has a checkbox, and todos that are not checked (or not marked as done) will be counted and displayed at the top.
+In tutorial 6, a todo page was added.
