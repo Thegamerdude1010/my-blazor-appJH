@@ -8,11 +8,11 @@ https://white-wave-0db7e870f.azurestaticapps.net/
 
 # Tutorial 4
 
-In tutorial 4, the project was created. It was uploaded to github and deployed to an Azure static web app.
+In tutorial 4, the project was created. It was uploaded to github and deployed to an Azure static web app. It uses a basic blazor app template provided in the tutorial found here: https://devblogs.microsoft.com/aspnet/azure-static-web-apps-with-blazor/
 
 # Tutorial 5
 
-In tutorial 5, an IPO page was added. A calculator page was also added to expirement with input and output.
+In tutorial 5, an IPO page was added. A calculator page was also added to expirement with input and output. The calculator page does basic calculations (multiplication, division, addition, subtraction).
 
 # Tutorial 6
 
