@@ -3,12 +3,12 @@
 <h1>Todo (@todos.Count(todo => !todo.IsDone))</h1> @*this is the header and counts number of todo items not checked as done*@
 
 <ul>
-    @foreach (var todo in todos)
+    @foreach (var todo in todos) @*repeats what is in the body for each item in the list*@
     {
         
         <li>
             <input type="checkbox" @bind="todo.IsDone" /> @*creates a checkbox and sets checked items to isDone = true*@
-            <input @bind="todo.Title" />
+            <input @bind="todo.Title" /> @*take the todo title as input*@
         </li>
     }
 </ul>
@@ -16,15 +16,15 @@
 <input placeholder="Something todo" @bind="newTodo" /> @*input textbox for naming todos*@
 <button @onclick="AddTodo">Add todo</button> @*adds a todo with whatever is in the textbox*@
 
-<br /><button @onclick="RemoveTodo">Clear</button> 
+<br /><button @onclick="RemoveTodo">Clear</button> @*button for clearing the list*@
 
 @code {
-    private List<TodoItem> todos = new();
-    private string newTodo;
+    private List<TodoItem> todos = new(); @*creates a new object of class TodoItem called todos*@
+    private string newTodo; @*string for storing what is in the text box*@
 
     private void AddTodo() @*function for adding todos to the list*@
     {
-        if (!string.IsNullOrWhiteSpace(newTodo)) 
+        if (!string.IsNullOrWhiteSpace(newTodo)) @*enter statement if the textbox is not empty*@
         {
             
             todos.Add(new TodoItem { Title = newTodo }); @*sets Title = to the string newTodo and adds it to the list*@
